@@ -1,5 +1,4 @@
 
-
 // Referencias del HTML
 const lblOnline  = document.querySelector('#lblOnline');
 const lblOffline = document.querySelector('#lblOffline');
