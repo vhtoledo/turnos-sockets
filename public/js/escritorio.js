@@ -47,7 +47,7 @@ btnAtender.addEventListener( 'click', () => {
     socket.emit( 'atender-ticket', { escritorio }, ( { ok, ticket, msg } ) => {
         
         if ( !ok ) {
-            lblTicket.innerText = 'Nadie.';
+            lblTicket.innerText = 'Nadie - Generar nuevos Turnos.';
             return divAlerta.style.display = '';
         }
 
